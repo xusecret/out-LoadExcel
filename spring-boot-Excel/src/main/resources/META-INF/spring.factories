@@ -1,0 +1,7 @@
+#Initializers
+org.springframework.context.ApplicationContextInitializer=\
+com.flair.springbootevents.events.MyApplicationContextInitializer
+
+# Application Listeners
+org.springframework.boot.SpringApplicationRunListener=\
+com.flair.springbootevents.events.MySpringApplicationRunListener
